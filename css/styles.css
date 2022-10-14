@@ -39,7 +39,14 @@ body {
 .nav__link:active {
   color: var(--primary-color);
 }
-
+.contact__date {
+  color: var(--fourth-color);
+}
+.contact__date:hover,
+.contact__date:focus,
+.contact__date:active {
+  color: var(--primary-color);
+}
 /* -------------LOGO------------- */
 .logo {
   font-size: 26px;
@@ -67,6 +74,11 @@ body {
 }
 .footer__contact {
   color: rgba(255, 255, 255, 0.6);
+}
+.footer__contact:hover,
+footer__contact:active,
+.footer__contact:focus {
+  color: var(--primary-color);
 }
 
 /* -------------SLIDER------------- */
