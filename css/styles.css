@@ -106,11 +106,11 @@ footer__contact:active,
   line-height: 1.36;
 }
 
-/* -------------LOREM------------- */
-.lorem__title {
+/* -------------ARTICLE------------- */
+.article__title {
   font-weight: 700;
 }
-.lorem__text {
+.article__text {
   color: var(--fourth-color);
 }
 
